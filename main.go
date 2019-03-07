@@ -1,8 +1,12 @@
 package main
 
-import "github.com/ptiger10/go-module-example/adder"
+import (
+	"fmt"
+
+	"github.com/ptiger10/go-module-example/adder"
+)
 
 func main() {
-	adder.Add(2, 5)
+	fmt.Println(adder.Add(2, 5, 11))
 
 }
